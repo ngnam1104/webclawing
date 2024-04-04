@@ -19,7 +19,7 @@ public interface Website {
 	 */	
 
 	/*
-	* WORK WITH MAIN PAGE
+	** WORK WITH MAIN PAGE
 	*/ 
 	public List<String> getArticleLinks(Document outerPage);
 	public Document nextPage(Document outerPage) throws IOException;
